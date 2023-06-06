@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="51.281" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Online Doctor Consultation" name="   Validate Sort By on Doctor Consult Page" time="51.02">
+<system-out><![CDATA[
+Given Chrome is opened and Apollo247 app is opened..........................passed
+When User clicks on Consult Section.........................................passed
+Then User navigates on the Consult Page.....................................passed
+When User clicks on popular cities..........................................passed
+Then User naviagtes to Doctors Details Page.................................passed
+When User clicks on sort by Field...........................................passed
+And User selects Price- Low to High.........................................passed
+Then Application sorts the doctors list based on price......................passed
+Then User clicks on Book Hospital Visit Button..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
